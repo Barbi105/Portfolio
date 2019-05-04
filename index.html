@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,33 +9,99 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <!-- font-family: 'Righteous', cursive;
-    font-family: 'Lato', sans-serif; -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Righteous" rel="stylesheet">
-    <!-- Our own CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <!-- header -->
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" class="logo" id="topLogo">Onti</a>
-            <a href="index.html" class="logo" id="bottomLogo">veros</a>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+    <!-- navigation bar -->
+    <nav>
+        <h1> Ontiveros </h1>
+        <div class="navSearchItems">
+          <a id="nav-item" href="#">About</a>
+          <a id="nav-item" href="#weatherJump">Portfolio</a>
+          <a id="nav-item" href="#hikingJump">Services</a>
+          <a id="nav-item" href="#bikingJump">Contact</a>
+      </nav>
+    <!-- home page -->
+    <div class="jumbotron jumbotron-fluid" id="homePage">
+        <div class="container" id="main-body-message">
+            <h2 class="section-title" id="mainBio">I’m a freelance <span>web designer</span> with a passion for social
+                good</h2>
+          <p class="lead"></p>
         </div>
-    </header>
+      </div>
+      <!-- about page -->
+      <div class="jumbotron jumbotron-fluid" id="aboutPage">
+          <h1 class="display-4" id='subTitle'>About</h1>
+      </div>
+    <!-- portfolio -->
+    <div class="jumbotron jumbotron-fluid" id='portfolioJumbotron'>
+        <div class="container-fluid portfolio">
+          <h1 class="display-4" id='subTitle'>Portfolio</h1>
+
+          <!-- row 1 -->
+          
+          <div class='row' id='pRow3'>
+            <div class='col-lg-4'>
+              <img src="assets/images/200x200.gif" class="portfolioPicture" alt="...">
+            </div>
+            <div class='col-lg-4'>
+              <img src="assets/images/200x200.gif" class="portfolioPicture" alt="...">
+            </div>
+            <div class='col-lg-4'>
+                <img src="assets/images/200x200.gif" class="portfolioPicture" alt="...">
+              </div>
+        </div>
+       
+
+          <!-- row 2 -->
+          <div class='row' id='pRow3'>
+            <div class='col-lg-4'>
+              <img src="assets/images/200x200.gif" class="portfolioPicture" alt="...">
+            </div>
+            <div class='col-lg-4'>
+              <img src="assets/images/200x200.gif" class="portfolioPicture" alt="...">
+            </div>
+            <div class='col-lg-4'>
+                <img src="assets/images/200x200.gif" class="portfolioPicture" alt="...">
+              </div>
+        </div>
+
+        <!-- row 3 -->
+        <div class='row' id='pRow3'>
+            <div class='col-lg-4'>
+              <img src="assets/images/200x200.gif" class="portfolioPicture" alt="...">
+            </div>
+            <div class='col-lg-4'>
+              <img src="assets/images/200x200.gif" class="portfolioPicture" alt="...">
+            </div>
+            <div class='col-lg-4'>
+                <img src="assets/images/200x200.gif" class="portfolioPicture" alt="...">
+              </div>
+        </div>
+        
+
+          
+        </div>
+      </div>
+      <!-- services -->
+      <div class="jumbotron jumbotron-fluid">
+          <h1 class="display-4" id='subTitle'>Services</h1>
+      </div>
+      <!-- contact -->
+      <div class="jumbotron jumbotron-fluid">
+          <h1 class="display-4" id='subTitle'>Contact</h1>
+      </div>
 
     <!-- footer -->
-    <div class="footer">
-        <p class='wd'>Web Designer</p>
+    <div class="row">
+        <div class="col">
+            <div class="footer">
+                <p class='wd'>Web Designer</p>
+            </div>
+        </div>
     </div>
+
 
 
     <!-- jQuery CDN -->
