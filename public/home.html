@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,64 @@
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <title>Ontiveros</title>
 </head>
+
 <body>
-    
+    <!-- navigation bar -->
+    <nav>
+        <h1> Ontiveros </h1>
+        <div class="navSearchItems">
+            <a id="nav-item" href="/about">About</a>
+            <a id="nav-item" href="/portfolio">Portfolio</a>
+            <a id="nav-item" href="/services">Services</a>
+            <a id="nav-item" href="/contact">Contact</a>
+    </nav>
+    <!-- body -->
+    <div class="jumbotron" id="homePage">
+        <div class="container" id="main-body-message">
+           
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- empty -->
+                </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <h3>Contact</h3>
+                </div>
+                <div class="row">
+                    <p>bontiverosg@gmail.com</p>
+                </div>
+                <div class="row">
+                    <p>social media images</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="inputSubject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="formSubmit">Submit</button>
+                </form>
+            </div>
+                <div class="col-md-3">
+                    <!-- empty -->
+                </div>
+        </div>
+    </footer>
 </body>
+
 </html>
