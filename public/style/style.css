@@ -76,15 +76,17 @@ nav h1 {
   width: 308.67px;
   height: 197.5px;
 }
+#bottomCard{
+margin-bottom: 140px;
+}
 
 /* footer */
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    font-size: 15px;
+#contactJumbotron{
+margin-top:0;
+background-color: black;
+}
+#contactInfo{
+  color: white;
 }
 form {
   margin-bottom: 100px;
