@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/style.css">
     <title>Ontiveros</title>
 </head>
@@ -15,21 +17,101 @@
 <body>
     <!-- navigation bar -->
     <nav>
-        <h1> Ontiveros </h1>
+        <h1> ONTIVEROS </h1>
         <div class="navSearchItems">
-            <a id="nav-item" href="/about">About</a>
-            <a id="nav-item" href="/portfolio">Portfolio</a>
-            <a id="nav-item" href="/services">Services</a>
-            <a id="nav-item" href="/contact">Contact</a>
+            <a id="nav-item" href="#about"> ABOUT</a>
+            <a id="nav-item" href="#portfolio"> PORTFOLIO</a>
+            <a id="nav-item" href="#contact"> CONTACT</a>
     </nav>
-    <!-- body -->
-    <div class="jumbotron" id="homePage">
-        <div class="container" id="main-body-message">
-           
+    <!-- about me -->
+           <div class="jumbotron" id="aboutPage">
+                <h1 class='subtitle' id='aboutTitle' name="about">ABOUT ME</h1>
+            <div class="container" id="main-body-message">
+                <div class="row">
+                        <div class="col-md-1">
+                        </div>
+                    <div class="col-md-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod obcaecati, reprehenderit culpa debitis iusto nihil doloribus dolores eligendi expedita, repudiandae dolorem laborum inventore ipsam aliquam facere ab, illo molestiae vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aut error numquam recusandae adipisci cumque blanditiis sequi debitis obcaecati itaque quas, necessitatibus tempore vero optio est. Sunt architecto placeat labore?</p>
+                        </div>
+                        <div class="col-md-4">
+                                <img src="../assets/images/me-red.jpeg" id='pic' alt="me, myself and I">
+                            </div>
+                            <div class="col-md-3">
+                                </div>
+                </div>
+              
+            </div>
         </div>
-    </div>
+        <div class="jumbotron" id="portfolioPage">
+            <h1 class='subtitle' id='portfolioTitle' name="portfolio">PORTFOLIO</h1>
+            <div class="container" id="main-body-message">
+                <div class='row'>
+                    <div class='col-md-12'>
+                            <div class="card-group">
+                                    <div class="card">
+                                      <img src="../assets/images/portfoliopics/skillWorks.jpg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">SkillWorks</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <img src="../assets/images/crystalGame.jpeg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">Crystal Collector</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                            <iframe src="https://giphy.com/embed/l0IyfxPD5cwvOK6By" width="320" height="480" frameBorder="0" class="card-img-top" allowFullScreen></iframe>
+                                     
+                                      <div class="card-body">
+                                        <h5 class="card-title">Liri Bot</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                    </div>
+                </div>
+                <div class='row'>
+                        <div class='col-md-12'>
+                                <div class="card-group">
+                                        <div class="card">
+                                                <img src="../assets/images/portfoliopics/restaurantApp.jpg" class="card-img-top" alt="..."> 
+                                          <!-- <img src="../assets/images/portfoliopics/psychic.jpg" class="card-img-top" alt="..."> -->
+                                          <div class="card-body">
+                                            <h5 class="card-title">Restaurant App</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+                                          </div>
+                                        </div>
+                                        <div class="card">
+                                          <img src="../assets/images/portfoliopics/gihpyGenerator.jpg" class="card-img-top" alt="...">
+                                          <div class="card-body">
+                                            <h5 class="card-title">gihpyGenerator</h5>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+
+                                          </div>
+                                        </div>
+                                        <div class="card">
+                                                <img src="../assets/images/portfoliopics/trailFolk.jpg" class="card-img-top" alt="..."> 
+                                          <div class="card-body">
+                                            <h5 class="card-title">TrailFolk</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                    </div>
+                    
+               
+            </div>
+        </div>
+    
+
     <!-- footer -->
-    <footer>
+    <div class=jumbotron>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -37,7 +119,7 @@
                 </div>
             <div class="col-md-4">
                 <div class="row">
-                    <h3>Contact</h3>
+                    <h3 name="contact">Contact</h3>
                 </div>
                 <div class="row">
                     <p>bontiverosg@gmail.com</p>
@@ -46,7 +128,6 @@
                     <p>social media images</p>
                 </div>
             </div>
-
             <div class="col-md-4">
                 <form>
                     <div class="form-group">
@@ -68,7 +149,7 @@
                     <!-- empty -->
                 </div>
         </div>
-    </footer>
+    </div>
 </body>
 
 </html>
