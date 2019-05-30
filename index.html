@@ -8,10 +8,16 @@
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Playfair+Display&display=swap"
+        rel="stylesheet">
+    <!-- font-family: 'Playfair Display', serif;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Lobster', cursive; -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script type="text/javascript" src="server.js"></script>
     <title>Ontiveros</title>
 </head>
 
@@ -21,25 +27,63 @@
         <h1> ONTIVEROS </h1>
         <div class="navSearchItems">
             <a id="nav-item" href="#about"> ABOUT</a>
+            <a id="nav-item" href="#portfolio"> SERVICES</a>
             <a id="nav-item" href="#portfolio"> PORTFOLIO</a>
             <a id="nav-item" href="#contact"> CONTACT</a>
     </nav>
     <!-- about me -->
     <div class="jumbotron" id="aboutPage">
-        <h1 class='subtitle' id='aboutTitle' name="about">ABOUT ME</h1>
+        <div class='row'>
+                <div class="col-md-12">
+                        
+                                <img src="./assets/images/yellowCircle-me.png" id='pic' alt="me, myself and I">
+                          
+                    </div>
+        </div>
         <div class="container" id="main-body-message">
-            <div class="row">
-                <div class="col-md-1">
+                <div class="row">
+                       
+                            <div class="col-md-12">
+                                <div id="tagline">
+                                    <h2 id="passion">Web developer with a passion for <span id="changeText">social good</span></h2>
+                                </div>
+                                </div>
                 </div>
-                <div class="col-md-6">
-                    <h1 id="web">Web developer</h1>
-                    <h2 id="passion">with a passion for social good</h2>
+            </div>
+    </div>
+
+    <div class="jumbotron" id="servicesPage">
+        <h1 class='subtitle' id='servicesTitle' name="about">SERVICES</h1>
+        <div class="container" id="main-body-message">
+            <p id="serviceBio">My goal is to provide a positive end to end experience for creating a digital presence
+                with the client in mind. I’ll work with you to define exactly what you need from your website and to
+                ensure that your mission statement is consistent and clearly showcased across all platforms.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="serviceSubTitle">Branding</h2>
+                    <ul>
+                        <li>Logo Design</li>
+                        <li>Business Card Design</li>
+                        <li>Social Media Presence</li>
+                    </ul>
                 </div>
                 <div class="col-md-4">
-                    <img src="./assets/images/me-red.jpeg" id='pic' alt="me, myself and I">
+                    <h2 class="serviceSubTitle">Design</h2>
+                    <ul>
+                        <li>User Friendly</li>
+                        <li>Mobile Responsive</li>
+                        <li>Dynamic & Fast</li>
+                    </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
+                    <h2 class="serviceSubTitle">Development</h2>
+                    <ul>
+                        <li>Clean Code</li>
+                        <li>Deployment</li>
+                        <li>Website Maintenance</li>
+                    </ul>
                 </div>
+
             </div>
 
         </div>
@@ -54,7 +98,8 @@
                             <img src="./assets/images/portfoliopics/skillWorks.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title"><a href="https://skillworx.herokuapp.com/">SkillWorx</a></h5>
-                                <p class="card-text">User friendly website that connects people with chores, tasks and odd jobs in their area.</p>
+                                <p class="card-text">User friendly website that connects people with chores, tasks and
+                                    odd jobs in their area.</p>
                             </div>
                         </div>
                         <div class="card">
@@ -62,7 +107,9 @@
                             <div class="card-body">
                                 <h5 class="card-title"><a href="https://barbi105.github.io/unit-4-game/">Crystal
                                         Collector</a></h5>
-                                <p class="card-text">Crystal Collector generates a random number upon page load and challenges the player to pick crystals to match and not exceed the ranomly generated number.</p>
+                                <p class="card-text">Crystal Collector generates a random number upon page load and
+                                    challenges the player to pick crystals to match and not exceed the ranomly generated
+                                    number.</p>
                             </div>
                         </div>
                         <div class="card">
@@ -70,15 +117,19 @@
                                 frameBorder="0" class="card-img-top" allowFullScreen></iframe>
 
                             <div class="card-body">
-                                    <h5 class="card-title">
-                                            <a href="https://github.com/Barbi105/liri-node-app">LiriBot</a>
-                                        </h5>
-                                <p class="card-text">LIRI is a command line node app that takes in parameters and returns data to the user. The user can ask the program to "concert-this", "spotify-this-song", "movie-this", and "do-what-it-says".</p>
+                                <h5 class="card-title">
+                                    <a href="https://github.com/Barbi105/liri-node-app">LiriBot</a>
+                                </h5>
+                                <p class="card-text">LIRI is a command line node app that takes in parameters and
+                                    returns data to the user. The user can ask the program to "concert-this",
+                                    "spotify-this-song", "movie-this", and "do-what-it-says".</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- </div>
+    </div> -->
             <div class='row'>
                 <div class='col-md-12' id="bottomCard">
                     <div class="card-group">
@@ -86,30 +137,35 @@
                             <img src="./assets/images/portfoliopics/restaurantApp.jpg" class="card-img-top" alt="...">
                             <!-- <img src="../assets/images/portfoliopics/psychic.jpg" class="card-img-top" alt="..."> -->
                             <div class="card-body">
-                                    <h5 class="card-title">
-                                            <a href="https://burger-app2.herokuapp.com/">RestaurantApp</a>
-                                        </h5>
-                                <p class="card-text">Restauran App is a full stack application which allows user to populates the page with restaurants they wish to vist. Once visited, user can transfer the restaurnat to a "been there" section.</p>
+                                <h5 class="card-title">
+                                    <a href="https://burger-app2.herokuapp.com/">RestaurantApp</a>
+                                </h5>
+                                <p class="card-text">Restauran App is a full stack application which allows user to
+                                    populates the page with restaurants they wish to vist. Once visited, user can
+                                    transfer the restaurnat to a "been there" section.</p>
 
                             </div>
                         </div>
                         <div class="card">
                             <img src="./assets/images/portfoliopics/gihpyGenerator.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                    <h5 class="card-title">
-                                            <a href="https://barbi105.github.io/homework6/">GiphyApp</a>
-                                        </h5>
-                                <p class="card-text">Space themed giphy generator. Upon click, the program communicates with the giphy API and generates ten images.</p>
+                                <h5 class="card-title">
+                                    <a href="https://barbi105.github.io/homework6/">GiphyApp</a>
+                                </h5>
+                                <p class="card-text">Space themed giphy generator. Upon click, the program communicates
+                                    with the giphy API and generates ten images.</p>
 
                             </div>
                         </div>
                         <div class="card">
                             <img src="./assets/images/portfoliopics/trailFolk.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                    <h5 class="card-title">
-                                            <a href="https://barbi105.github.io/Project_1/">TrailFolk</a>
-                                        </h5>
-                                <p class="card-text">A site for the adventurous travelers in all of us. Here you can search hiking and biking trails all over the country, as well as receiving weather forecasts so you can plan and pack confidently.</p>
+                                <h5 class="card-title">
+                                    <a href="https://barbi105.github.io/Project_1/">TrailFolk</a>
+                                </h5>
+                                <p class="card-text">A site for the adventurous travelers in all of us. Here you can
+                                    search hiking and biking trails all over the country, as well as receiving weather
+                                    forecasts so you can plan and pack confidently.</p>
 
                             </div>
                         </div>
@@ -117,9 +173,9 @@
                 </div>
             </div>
 
-
         </div>
     </div>
+
 
 
     <!-- footer -->
@@ -137,10 +193,13 @@
                         <div class="row">
                             <p>bontiverosg@gmail.com</p>
                         </div>
-                    
+                        <div class="row">
+                            <p>social media images and links</p>
+                        </div>
+
                     </div>
                 </div>
-                <!-- <div class="col-md-4">
+                <div class="col-md-4">
                     <form>
                         <div class="form-group">
                             <input type="text" class="form-control" id="inputName" placeholder="Name">
@@ -156,12 +215,14 @@
                         </div>
                         <button type="submit" class="btn btn-primary" id="formSubmit">Submit</button>
                     </form>
-                </div> -->
+                </div>
                 <div class="col-md-3">
                     <!-- empty -->
                 </div>
             </div>
         </div>
+
+        </script>
 </body>
 
 </html>

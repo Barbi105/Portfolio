@@ -42,35 +42,84 @@ nav h1 {
 
 /* jumbotron */
 .jumbotron{
+  text-align: center;
   margin: 30px 15px;
   border-radius: 0%;
   background-color: white;
   margin-bottom: 0;
 }
 .subtitle{
+  /* border-bottom: 5px solid #E8489A; */
+  letter-spacing: 5px;
   text-align: center;
-  /* font-family: 'Anton', sans-serif; */
-  font-family: 'Fjalla One', sans-serif;
-  /* font-family: 'Open Sans', sans-serif; */
-  /* font-weight: bolder; */
-  text-shadow: -0.06em -0.04em rgb(255, 179, 179),  0.06em 0.04em rgb(179, 235, 250); 
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  /* font-family: 'Fjalla One', sans-serif; */
+  /* text-shadow: -0.06em -0.04em rgb(255, 179, 179),  0.06em 0.04em rgb(179, 235, 250);  */
 }
 /* about me */
 #aboutTitle{
   margin-top: 70px;
   margin-bottom: 70px;
 }
+#passion{
+  font-size: 35px;
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Lobster', cursive;
+  /* font-family: 'Lobster Two', cursive; */
+  margin-bottom:45px;
+}
+#changeText{
+  font-size: 35px;
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Lobster Two', cursive;
+  color: #F26BAC;
+}
 #pic{
-  width: 302.4px;
-  height: 403.2px;
+  margin-top: 75px;
+  width: 300px;
+  height: 300px;
+}
+#tagline{
+  margin-top:50px;
+}
+/* services */
+#servicesPage{
+  margin-top: 0;
+  text-align: inherit;
+  background-image: url(/assets/images/white-waves.png) !important;
+}
+.serviceSubTitle{
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  background: #edff00;
+  /* border-bottom: 5px solid #edff00; */
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 25px;
+  padding:5px;
+  letter-spacing: 2px;
+}
+#serviceBio{
+  font-size: 18px;
+  margin-bottom: 80px;
+  font-family: 'Lato', sans-serif;
+  color: #404040;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+ul {
+  list-style: inherit;
+  margin-left: 60px;
 }
 /* portfolio */
 #portfolioPage{
   margin-top: 0;
-}
-#portfolioTitle{
-  margin-bottom: 70px;
-  margin-top:40px;
+  align-content: center;
+  text-align: center;
 }
 .card-img-top{
   width: 308.67px;
@@ -79,6 +128,9 @@ nav h1 {
 #bottomCard{
 margin-bottom: 140px;
 }
+/* .card{
+  max-width: 302.4px;
+} */
 
 /* footer */
 #contactJumbotron{
@@ -98,8 +150,4 @@ form {
   font-size: 70px;
   margin-bottom: 30px;
   margin-top: 30px;
-}
-#passion{
-  font-size: 50px;
-  font-family: 'Pacifico', cursive;
 }
