@@ -1,12 +1,16 @@
 body{
+  /* background-color:#FFF2C4 */
   background-color: #000;
+  /* background-color: #C0C9FF; */
+  /* background-color: #F26BAC; */
+  /* background-color: #edff00; */
   color: black;
   font-family: 'Lato', sans-serif;
 }
 
 /* navigation bar */
 .navSearchItems{
-  margin-right: 20px;
+  margin-right: 29px;
   font-weight: bold;
 }
 .navSearchItems a {
@@ -16,7 +20,7 @@ body{
   margin: 0 10px;
 }
 .navSearchItems a:hover {
-  color: #F26BAC
+  color: #FFDDF1
 }
 nav {
   display: flex;
@@ -26,6 +30,13 @@ nav {
   z-index: 99;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
+  /* background: white; */
+  /* background: black; */
+
+  /* box-shadow: -1px -16px 90px -13px rgba(0,0,0,0.75); */
+  /* border-top: 15px solid #C0C9FF;
+  border-left: 15px solid #C0C9FF;
+  border-right: 15px solid #C0C9FF; */
 }
 
 nav h1 {
@@ -38,16 +49,28 @@ nav h1 {
   letter-spacing: 6px;
   font-family: 'Anton', sans-serif;
 /* font-family: 'Fjalla One', sans-serif; */
-text-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+/* text-shadow: 0px 3px 15px rgba(0,0,0,0.2); */
+text-shadow: -0.06em -0.04em rgb(255, 179, 179),  0.06em 0.04em rgb(179, 235, 250); 
+
 }
+
+/* nav h1:hover{
+  color: #EBA6FF;
+  text-shadow:
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;
+} */
 
 /* jumbotron */
 .jumbotron{
   text-align: center;
-  margin: 30px 15px;
+  margin: 20px 15px;
   border-radius: 0%;
   background-color: white;
   margin-bottom: 0;
+  /* box-shadow: -1px -16px 90px -13px rgba(0,0,0,0.75); */
 }
 .subtitle{
   /* border-bottom: 5px solid #E8489A; */
@@ -58,7 +81,7 @@ text-shadow: 0px 3px 15px rgba(0,0,0,0.2);
   font-family: 'Anton', sans-serif;
   font-weight: bold;
   /* font-family: 'Fjalla One', sans-serif; */
-  /* text-shadow: -0.06em -0.04em rgb(255, 179, 179),  0.06em 0.04em rgb(179, 235, 250);  */
+  text-shadow: -0.06em -0.04em rgb(255, 179, 179),  0.06em 0.04em rgb(179, 235, 250); 
 }
 /* about me */
 #aboutTitle{
@@ -72,7 +95,7 @@ text-shadow: 0px 3px 15px rgba(0,0,0,0.2);
   font-family: 'Lobster', cursive;
   /* font-family: 'Lobster Two', cursive; */
   margin-bottom:45px;
-  margin-left: 100px;
+  margin-left: 140px;
 }
 /* #changeText{
   font-size: 35px;
@@ -91,14 +114,17 @@ text-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 #servicesPage{
   margin-top: 0;
   text-align: inherit;
-  background-image: url(/assets/images/white-waves.png) !important;
+  background-image: url('/assets/images/white-waves.png');
+  background-size: cover;
 }
 .serviceSubTitle{
   /* font-family: 'Playfair Display', serif; */
-  font-family: 'Anton', sans-serif;
+  /* font-family: 'Anton', sans-serif; */
   font-weight: bold;
-  background: #edff00;
+  /* background: #edff00; */
+  /* background: rgb(255, 179, 179); */
   /* border-bottom: 5px solid #edff00; */
+  font-family: 'Lobster', cursive;
   margin: 10px;
   text-align: center;
   margin-bottom: 25px;
@@ -116,6 +142,7 @@ text-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 ul {
   list-style: inherit;
   margin-left: 60px;
+  color: #404040;
 }
 /* portfolio */
 #portfolioPage{
