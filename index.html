@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/style.css">
-   
+
     <title>Ontiveros</title>
 </head>
 
@@ -26,68 +26,32 @@
     <nav>
         <h1> ONTIVEROS </h1>
         <div class="navSearchItems">
-            <a id="nav-item" href="#about"> ABOUT</a>
-            <a id="nav-item" href="#portfolio"> SERVICES</a>
-            <a id="nav-item" href="#portfolio"> PORTFOLIO</a>
-            <a id="nav-item" href="#contact"> CONTACT</a>
+            <a id="nav-item" href="#aboutPage"> ABOUT</a>
+            <a id="nav-item" href="#portfolioPage"> PORTFOLIO</a>
+            <a id="nav-item" href="#servicesPage"> SERVICES</a>
+            <a id="nav-item" href="#contactPage"> CONTACT</a>
     </nav>
     <!-- about me -->
     <div class="jumbotron" id="aboutPage">
         <div class='row'>
-                <div class="col-md-12">
-                        
-                                <img src="./assets/images/pinky.png" id='pic' alt="me, myself and I">
-                          
-                    </div>
+            <div class="col-md-12">
+
+                <img src="./assets/images/circle-me.png" id='pic' alt="me, myself and I">
+
+            </div>
         </div>
         <div class="container" id="main-body-message">
-                <div class="row">
-                       
-                            <div class="col-md-12">
-                                <div id="tagline">
-                                    <h2 id="passion">Web developer with a passion for <span id="changeText">social good</span></h2>
-                                </div>
-                                </div>
-                </div>
-            </div>
-    </div>
-
-    <div class="jumbotron" id="servicesPage">
-        <h1 class='subtitle' id='servicesTitle' name="about">SERVICES</h1>
-        <div class="container" id="main-body-message">
-            <p id="serviceBio">My goal is to provide a positive end to end experience for creating a digital presence
-                with the client in mind. I’ll work with you to define exactly what you need from your website and to
-                ensure that your mission statement is consistent and clearly showcased across all platforms.</p>
             <div class="row">
-                <div class="col-md-4">
-                    <h2 class="serviceSubTitle">Branding</h2>
-                    <ul>
-                        <li>Logo Design</li>
-                        <li>Business Card Design</li>
-                        <li>Social Media Presence</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h2 class="serviceSubTitle">Design</h2>
-                    <ul>
-                        <li>User Friendly</li>
-                        <li>Mobile Responsive</li>
-                        <li>Dynamic & Fast</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h2 class="serviceSubTitle">Development</h2>
-                    <ul>
-                        <li>Clean Code</li>
-                        <li>Deployment</li>
-                        <li>Website Maintenance</li>
-                    </ul>
-                </div>
 
+                <div class="col-md-12">
+                    <div id="tagline">
+                        <h2 id="passion">Web developer with a passion for <span id="changeText">social good</span></h2>
+                    </div>
+                </div>
             </div>
-
         </div>
     </div>
+    <!-- portfolio -->
     <div class="jumbotron" id="portfolioPage">
         <h1 class='subtitle' id='portfolioTitle' name="portfolio">PORTFOLIO</h1>
         <div class="container" id="main-body-message">
@@ -128,8 +92,7 @@
                     </div>
                 </div>
             </div>
-            <!-- </div>
-    </div> -->
+
             <div class='row'>
                 <div class='col-md-12' id="bottomCard">
                     <div class="card-group">
@@ -176,10 +139,49 @@
         </div>
     </div>
 
+    <!-- services -->
+    <div class="jumbotron" id="servicesPage">
+        <h1 class='subtitle' id='servicesTitle'>SERVICES</h1>
+        <div class="container" id="main-body-message">
+            <p id="serviceBio">My goal is to provide a positive end to end experience for creating a digital presence
+                with the client in mind. I’ll work with you to define exactly what you need from your website and to
+                ensure that your mission statement is consistent and clearly showcased across all platforms.</p>
+            <div class="row">
+                <div class="col-md-4">
+                        <img src="./assets/images/Branding.png" class='branding' alt="branding">
+                    <!-- <h2 class="serviceSubTitle">Branding</h2>
+                    <ul>
+                        <li>Logo Design</li>
+                        <li>Business Card Design</li>
+                        <li>Social Media Presence</li>
+                    </ul> -->
+                </div>
+                <div class="col-md-4">
+                        <img src="./assets/images/Design.png" class='branding' alt="design">
+                    <!-- <h2 class="serviceSubTitle">Design</h2>
+                    <ul>
+                        <li>User Friendly</li>
+                        <li>Mobile Responsive</li>
+                        <li>Dynamic & Fast</li>
+                    </ul> -->
+                </div>
+                <div class="col-md-4">
+                        <img src="./assets/images/Development.png" class='branding' alt="development">
+                    <!-- <h2 class="serviceSubTitle">Development</h2>
+                    <ul>
+                        <li>Clean Code</li>
+                        <li>Deployment</li>
+                        <li>Website Maintenance</li>
+                    </ul> -->
+                </div>
 
+            </div>
 
-    <!-- footer -->
-    <div class=jumbotron id="contactJumbotron">
+        </div>
+    </div>
+
+    <!-- conatct -->
+    <div class=jumbotron id="contactPage">
         <div class="container" id="contactInfo">
             <div class="row">
                 <div class="col-md-2">
@@ -221,7 +223,13 @@
                 </div>
             </div>
         </div>
+        <!-- footer  -->
+        <footer>
+            <p id="handle">@barbi105</p>
+            
+        </footer>
 
+        <!-- javascript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script type="text/javascript" src="./server.js"></script>
 

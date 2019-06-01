@@ -20,23 +20,25 @@ body{
   margin: 0 10px;
 }
 .navSearchItems a:hover {
-  color: #FFDDF1
+  /* color: #FFDDF1 */
+  color: #F26BAC;
 }
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  z-index: 99;
+  z-index: 1;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
   /* background: white; */
   /* background: black; */
-
+  background-color: rgb(245, 246, 247);
   /* box-shadow: -1px -16px 90px -13px rgba(0,0,0,0.75); */
-  /* border-top: 15px solid #C0C9FF;
-  border-left: 15px solid #C0C9FF;
-  border-right: 15px solid #C0C9FF; */
+ border-top: 15px solid black; 
+  border-left: 15px solid black;
+  border-right: 15px solid black;
+  top:0;
 }
 
 nav h1 {
@@ -51,7 +53,10 @@ nav h1 {
 /* font-family: 'Fjalla One', sans-serif; */
 /* text-shadow: 0px 3px 15px rgba(0,0,0,0.2); */
 text-shadow: -0.06em -0.04em rgb(255, 179, 179),  0.06em 0.04em rgb(179, 235, 250); 
-
+transition: transform .2s;
+}
+nav h1:hover{
+  transform: scale(1.05);
 }
 
 /* nav h1:hover{
@@ -68,7 +73,8 @@ text-shadow: -0.06em -0.04em rgb(255, 179, 179),  0.06em 0.04em rgb(179, 235, 25
   text-align: center;
   margin: 20px 15px;
   border-radius: 0%;
-  background-color: white;
+  /* background-color: white; */
+  background-color: rgb(245, 246, 247);
   margin-bottom: 0;
   /* box-shadow: -1px -16px 90px -13px rgba(0,0,0,0.75); */
 }
@@ -89,13 +95,13 @@ text-shadow: -0.06em -0.04em rgb(255, 179, 179),  0.06em 0.04em rgb(179, 235, 25
   margin-bottom: 70px;
 }
 #passion{
-  text-align: left;
+  /* text-align: left; */
   font-size: 45px;
   /* font-family: 'Pacifico', cursive; */
   font-family: 'Lobster', cursive;
   /* font-family: 'Lobster Two', cursive; */
   margin-bottom:45px;
-  margin-left: 140px;
+  /* margin-left: 140px; */
 }
 /* #changeText{
   font-size: 35px;
@@ -106,6 +112,10 @@ text-shadow: -0.06em -0.04em rgb(255, 179, 179),  0.06em 0.04em rgb(179, 235, 25
   margin-top: 75px;
   width: 300px;
   height: 300px;
+  transition: transform .2s;
+}
+#pic:hover{
+  transform: scale(1.1);
 }
 #tagline{
   margin-top:50px;
@@ -144,6 +154,10 @@ ul {
   margin-left: 60px;
   color: #404040;
 }
+.branding{
+  width:350px;
+  height:350px;
+}
 /* portfolio */
 #portfolioPage{
   margin-top: 0;
@@ -161,8 +175,8 @@ margin-bottom: 140px;
   max-width: 302.4px;
 } */
 
-/* footer */
-#contactJumbotron{
+/* conatct */
+#contactPage{
 margin-top:0;
 background-color: black;
 }
@@ -179,4 +193,20 @@ form {
   font-size: 70px;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  color: white;
+  left: 0;
+  text-align: right;
+}
+#handle{
+  margin-bottom: 0;
+  font-size: 14px;
+  padding: 3px;
+  font-family: 'Lato', sans-serif;
+  margin-right: 50px;
 }
