@@ -124,8 +124,6 @@ nav h1:hover{
 #servicesPage{
   margin-top: 0;
   text-align: inherit;
-  background-image: url('/assets/images/white-waves.png');
-  background-size: cover;
 }
 .serviceSubTitle{
   /* font-family: 'Playfair Display', serif; */
@@ -168,14 +166,41 @@ ul {
   width: 308.67px;
   height: 197.5px;
 }
-#bottomCard{
-margin-bottom: 140px;
-}
-/* .card{
-  max-width: 302.4px;
-} */
 
+#bottomCard{
+margin-bottom: 0;
+}
+.card{
+ align-content: center;
+}
+.card-title{
+  
+  font-family: 'Lobster', cursive;
+  transition: transform .2s;
+}
+.card-title:hover{
+  transform: scale(1.1);
+  direction: none;
+}
+.a-card{
+  color: black;
+}
+.a-card:hover{
+  text-decoration:none !important;
+  color: #F26BAC;
+}
+p.card-text{
+  color: #404040;
+  text-align: left;
+}
 /* conatct */
+#contact{
+  letter-spacing: 5px;
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+ 
+  margin-bottom: 25px;
+}
 #contactPage{
 margin-top:0;
 background-color: black;
@@ -210,3 +235,20 @@ footer{
   font-family: 'Lato', sans-serif;
   margin-right: 50px;
 }
+
+@media only screen and (max-width: 600px){
+  body{
+    /* background-color: rgb(245, 246, 247); */
+  }
+  nav{
+    display: inherit;
+    border: none;
+    text-align: center;
+  }
+  .navSearchItems {
+    margin-left: 35px;
+}
+  .jumbotron{
+    width: 100%;
+  }
+ }
